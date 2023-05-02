@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+        'Helvetica Neue', Arial, sans-serif;
+}
+
+main {
+    background-color: #eeeeee;
+    margin: 30px 5px;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h1,
+h1+p {
+    text-align: center;
+}
+
+figure {
+    background-color: #ffffff;
+    text-align: center;
+    margin: 16px;
+    padding: 10px;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+}
+
+figure figcaption {
+    margin-top: 20px;
+}
+
+#tribute-info h3 {
+    margin: 50px 0;
+}
+
+h3 {
+    text-align: center;
+}
+
+ul {
+    max-width: 550px;
+    margin: auto;
+}
+
+li {
+    margin: 16px 0;
+}
+
+blockquote {
+    max-width: 545px;
+    margin: 60px auto;
+    font-style: italic;
+}
+
+main #wiki-info {
+    margin: 18px 0;
+}
