@@ -23,6 +23,7 @@ nav {
     left: 0;
     border-right: 2px solid black;
     z-index: 1;
+    box-shadow: 0px 0px 5px 0px #5f5f5f;
 }
 
 nav h1 {
@@ -48,6 +49,20 @@ nav ul {
     color: #4d4e53;
     list-style: none;
     text-decoration: none;
+}
+
+/* */
+div > #top_button {
+    position: fixed;
+    z-index: 2;
+    bottom: 1rem;
+    right: 1rem;
+    padding: .5rem;
+    text-decoration: none;
+    color: black;
+    border-radius: 30%;
+    box-shadow: 0px 0px 10px 0px rgb(70, 139, 141);
+    background: linear-gradient(rgb(127, 251, 255), rgb(127, 255, 212));
 }
 
 /* Main content */
